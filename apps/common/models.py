@@ -24,6 +24,7 @@ class BaseModel(models.Model):
     class Meta:
         abstract = True
 
+
 class IsDeletedModel(BaseModel):
     is_deleted = models.BooleanField(default=False)
     deleted_at = models.DateTimeField(null=True, blank=True)
