@@ -44,6 +44,8 @@ class User(AbstractBaseUser, IsDeletedModel):
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = ["first_name", "last_name"]
 
+    objects = CustomUserManager()
+
     @property
     def full_name(self):
         """
