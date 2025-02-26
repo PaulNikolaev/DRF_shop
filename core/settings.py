@@ -145,6 +145,9 @@ SPECTACULAR_SETTINGS = {
     "TITLE": "My First API",
     "VERSION": "0.0.1",
     "SERVE_INCLUDE_SCHEMA": False,
+    "SWAGGER_UI_SETTINGS": {
+        "persistAuthorization": True,
+    },
 }
 
 SIMPLE_JWT = {
