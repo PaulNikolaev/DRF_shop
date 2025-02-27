@@ -185,3 +185,7 @@ fabric.properties
 .idea/
 
 db.sqlite3
+
+avatars/
+category_images/
+product_images/
